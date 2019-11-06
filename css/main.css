@@ -9,13 +9,15 @@ html {
 }
 
 .img-flex img {
-  max-height: 500px;
+  display: flex;
+  width: 100%;
 }
 
 .banner h2 {
+  display: inline;
   font-size: 4rem;
   color: #fff;
-  background-color: rbga(0, 0, 0, .5)
+  background-color: rgba(0, 0, 0, .5);
 }
 
 .banner p {
@@ -24,10 +26,16 @@ html {
 
 .img-flex {
   position: relative;
+  max-height: 500px;
+  overflow: hidden;
 }
 
 .banner {
-  display: inline;
+  left: 50%;
+  transform: translate(-50%);
+  margin: 0 3rem;
+  padding: 0 1rem;
   position: absolute;
+  bottom: 1rem;
   max-width: 50em;
 }
