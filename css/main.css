@@ -1,0 +1,33 @@
+html {
+  box-sizing: border-box;
+  font: normal 100%/1.5 sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.img-flex img {
+  max-height: 500px;
+}
+
+.banner h2 {
+  font-size: 4rem;
+  color: #fff;
+  background-color: rbga(0, 0, 0, .5)
+}
+
+.banner p {
+  font-size: 2rem;
+}
+
+.img-flex {
+  position: relative;
+}
+
+.banner {
+  display: inline;
+  position: absolute;
+  max-width: 50em;
+}
